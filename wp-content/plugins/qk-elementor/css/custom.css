@@ -1,0 +1,33 @@
+/**OWL CAROUSEL**/
+.owl-dots{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.owl-dot span{
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  filter: Alpha(Opacity=50);/*IE7 fix*/
+  opacity: 1;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.owl-dot.active span,
+.owl-dot:hover span{
+  background: #EA462B;
+  border: 1px solid #EA462B;
+}
+.owl-dot:hover, .owl-dot:focus, .owl-dot:active {
+  background: none !important;
+  border: none !important;
+}
